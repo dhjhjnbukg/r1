@@ -3,10 +3,9 @@ using namespace std;
 int main() {
     int i;
     i = 69;
-    int number;
-    number = 72;
+    int number = 72;
     i = 69 + number;
-    int arr[3] = {0, 0, 0};
+    int arr[3] = {};
     int* iPointer = &i;
     number = *iPointer;
     *iPointer = 15;
